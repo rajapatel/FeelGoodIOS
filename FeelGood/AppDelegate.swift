@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import "ParseFile.m"
+import ParseBridgeHeader
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

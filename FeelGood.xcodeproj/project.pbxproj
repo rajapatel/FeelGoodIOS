@@ -29,7 +29,6 @@
 		2D74F8AA1A0C572D00F24096 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D74F8A01A0C572D00F24096 /* Security.framework */; };
 		2D74F8AB1A0C572D00F24096 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D74F8A11A0C572D00F24096 /* StoreKit.framework */; };
 		2D74F8AC1A0C572D00F24096 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D74F8A21A0C572D00F24096 /* SystemConfiguration.framework */; };
-		2D74F8B01A0C5CFA00F24096 /* ParseFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D74F8AF1A0C5CFA00F24096 /* ParseFile.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,7 +69,7 @@
 		2D74F8A11A0C572D00F24096 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		2D74F8A21A0C572D00F24096 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		2D74F8AE1A0C5CF900F24096 /* FeelGood-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FeelGood-Bridging-Header.h"; sourceTree = "<group>"; };
-		2D74F8AF1A0C5CFA00F24096 /* ParseFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParseFile.m; sourceTree = "<group>"; };
+		2D74F8B11A0C601800F24096 /* ParseBridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ParseBridgingHeader.h; path = ../ParseBridgingHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +107,7 @@
 		2D74F85F1A0C423900F24096 = {
 			isa = PBXGroup;
 			children = (
-				2D74F8AF1A0C5CFA00F24096 /* ParseFile.m */,
+				2D74F86A1A0C423A00F24096 /* FeelGood */,
 				2D74F8991A0C572D00F24096 /* AudioToolbox.framework */,
 				2D74F89A1A0C572D00F24096 /* CFNetwork.framework */,
 				2D74F89B1A0C572D00F24096 /* CoreGraphics.framework */,
@@ -119,7 +118,6 @@
 				2D74F8A01A0C572D00F24096 /* Security.framework */,
 				2D74F8A11A0C572D00F24096 /* StoreKit.framework */,
 				2D74F8A21A0C572D00F24096 /* SystemConfiguration.framework */,
-				2D74F86A1A0C423A00F24096 /* FeelGood */,
 				2D74F8841A0C423A00F24096 /* FeelGoodTests */,
 				2D74F8691A0C423A00F24096 /* Products */,
 				2D74F8AE1A0C5CF900F24096 /* FeelGood-Bridging-Header.h */,
@@ -143,6 +141,7 @@
 				2D74F8711A0C423A00F24096 /* DataViewController.swift */,
 				2D74F8731A0C423A00F24096 /* ModelController.swift */,
 				2D74F8751A0C423A00F24096 /* Main.storyboard */,
+				2D74F8B11A0C601800F24096 /* ParseBridgingHeader.h */,
 				2D74F8781A0C423A00F24096 /* Images.xcassets */,
 				2D74F87A1A0C423A00F24096 /* LaunchScreen.xib */,
 				2D74F86B1A0C423A00F24096 /* Supporting Files */,
@@ -280,7 +279,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D74F8701A0C423A00F24096 /* RootViewController.swift in Sources */,
-				2D74F8B01A0C5CFA00F24096 /* ParseFile.m in Sources */,
 				2D74F8741A0C423A00F24096 /* ModelController.swift in Sources */,
 				2D74F8721A0C423A00F24096 /* DataViewController.swift in Sources */,
 				2D74F86E1A0C423A00F24096 /* AppDelegate.swift in Sources */,

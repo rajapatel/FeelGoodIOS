@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import "ParseFile.m"
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

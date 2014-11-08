@@ -37,6 +37,11 @@ class RootViewController: UIViewController, UIPageViewControllerDelegate {
 
         // Add the page view controller's gesture recognizers to the book view controller's view so that the gestures are started more easily.
         self.view.gestureRecognizers = self.pageViewController!.gestureRecognizers
+        
+        //var testObject = PFObject(className:"TestObject")
+        //testObject["foo"] = "bar"
+        //testObject.saveInBackground()
+        //Initalizes PFObject (parse Object) of class TestObject (Parse has several classes of PFObjects: testObjects and Users for example) and saves in background
     }
 
     override func didReceiveMemoryWarning() {
